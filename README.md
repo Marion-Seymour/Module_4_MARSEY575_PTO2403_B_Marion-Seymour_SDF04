@@ -38,12 +38,13 @@ Embark on this CSS journey to transform simple buttons into interactive, animate
 - Submit the link to your GitHub repository on the LMS under the SDF04 project tab.
 
 Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life!
+
 I selceted 3 different styles;
 1) Swipe Right Button
 2) Animated gradient effect
 3) Hover glow effect
 
-Overall I kept the pre-coded styling 
+Swipe Right Button - button class=custom-btn btn-1- Name-Howzit!
 <!-- To create a button with an animated gradient effect for /*<button class="custom-btn btn-1"><Strong>Howzit!!</Strong></button>* -->
 This CSS code defines styles for a button with the class .btn-1 along with a hover effect.
 The first block of code sets the initial styles for the button with the class .btn-1.
@@ -59,7 +60,7 @@ It changes the text color to #e8cce6
 <!-- /*.btn-1:hover:after -->This code specifies styles that will be applied to the ::after pseudo-element when the button is hovered over.
 It expands the width of the pseudo-element to 100%, creating a visual effect.
 
-
+Animated gradient effect - button class=custom-btn btn-2- Name- Super Star!
 <!-- To create a button with an animated gradient effect for /*<button class="custom-btn btn-2"><Strong>Super Star!</Strong></button>* -->
 In this CSS:
 
@@ -70,6 +71,7 @@ The animation property applies the gradientAnimation animation to the button, sp
 The @keyframes rule defines the gradientAnimation, which animates the background-position property of the gradient from left to right and then back to left, creating the animated gradient effect.
 
 
+Hover glow effect - button class=custom-btn btn-3- Name- Glow!
 <!-- Creating a hover glow effect for /* <button class="custom-btn btn-3"><Strong>Glow!</Strong></button> -->
 In this CSS:
 The .btn-3 class defines the basic styles for the button, such as padding, font size, border, border radius, background color, and text color. It also has position: relative to establish a positioning context for the pseudo-element.
