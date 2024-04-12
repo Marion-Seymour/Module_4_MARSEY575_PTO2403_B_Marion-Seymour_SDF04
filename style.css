@@ -3,7 +3,7 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none
 }
 
 .logo {
@@ -50,5 +50,101 @@ p {
         4px 4px 5px 0px rgba(0, 0, 0, .1);
     outline: none;
 }
-
 /* Add your custom styles for btn-1, btn-2, and btn-3 */
+/* btn-1*/
+.btn-1 {  
+    color: #0d070c;
+    border: 3px solid rgb(76, 5, 63);
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s; /* Transition for all properties over 0.35 seconds */
+  }
+  
+  .btn-1 {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .btn-1:after {
+    position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #8a0672;
+  transition: all .60s; /* Transition for all properties over 0.60 seconds */
+  }
+  
+  .btn-1:hover{
+    color: #e8cce6; /* Change text color on hover */
+  }
+  
+  .btn-1:hover:after{
+    width: 100%;
+  }
+/* btn-2 */
+.btn-2 {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    background-image: linear-gradient(45deg, #e76d09, #fcfe7b);
+    background-size: 200% 200%;
+    animation: gradientAnimation 3s ease infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+   /*btn-3 */ 
+   .btn-3 {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .btn-3::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+  
+  .btn-:hover::before {
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  
+  .btn-3:hover {
+    box-shadow: 0 0 20px 5px rgba(106, 182, 6, 0.791);
+  }
+
+  
+    
